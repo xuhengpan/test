@@ -5,7 +5,7 @@ import java.util.Stack;
 public class BaseConversion {
 
 	public static void main(String[] args) {
-		// TODO 自动生成的方法存根
+		// TODO
 		int i = 2007;
 		baseConversion(i);
 	}

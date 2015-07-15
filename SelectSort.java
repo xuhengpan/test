@@ -3,7 +3,7 @@ package selectsort;
 public class SelectSort {
 
 	public static void main(String[] args) {
-		// TODO �Զ���ɵķ������
+		// TODO
 		int[] a = { 12, 23, 9, 24, 15, 3, 18 };
 		for (int j = 0; j < a.length; j++) {
 			System.out.print(a[j] + " ");

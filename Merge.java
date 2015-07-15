@@ -3,7 +3,7 @@ package selectsort;
 public class Merge {
 
 	public static void main(String[] args) {
-		// TODO �Զ���ɵķ������
+		// TODO 
 		int[] a = { 1, 3, 5, 7 };
 		int[] b = { 2, 4, 6 };
 		int[] c = merge(a, b);
