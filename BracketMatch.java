@@ -5,8 +5,8 @@ import java.util.Stack;
 public class BracketMatch {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
-String s="{[()]}";
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+String s="{[()]]}";
 System.out.print(bracketMatch(s));
 
 	}
@@ -30,7 +30,7 @@ public static boolean bracketMatch(String str){
 			else return false;
 		}
 	}
-	if(s.isEmpty()) return true;
-	else return false;
+	
+	 return s.isEmpty();
 }
 }

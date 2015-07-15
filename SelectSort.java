@@ -3,13 +3,15 @@ package selectsort;
 public class SelectSort {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int[] a = { 12, 23, 9, 24, 15, 3, 18 };
-		for (int j = 0; j < a.length; j++)
+		for (int j = 0; j < a.length; j++) {
 			System.out.print(a[j] + " ");
+		}
 		selectSort(a);
-		for (int m = 0; m < a.length; m++)
+		for (int m = 0; m < a.length; m++) {
 			System.out.print(a[m] + " ");
+		}
 	}
 
 	private static void selectSort(int[] a) {
@@ -17,8 +19,10 @@ public class SelectSort {
 		for (int k = 0; k < n - 1; k++) {
 			int min = k;
 			for (int i = k; i < n; i++) {
-				if (a[i] < a[min])
+				if (a[i] < a[min]) {
 					min = i;
+				}
+
 			}
 			if (k != min) {
 				int temp = a[k];
